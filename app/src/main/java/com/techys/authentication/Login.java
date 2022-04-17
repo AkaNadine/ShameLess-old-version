@@ -36,7 +36,7 @@ public class Login extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         fAuth = FirebaseAuth.getInstance();
         mLoginBtn = findViewById(R.id.loginButton);
-        mCreateBtn = findViewById(R.id.createText);
+        mCreateBtn = findViewById(R.id.registerLogin);
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,9 +69,7 @@ public class Login extends AppCompatActivity {
                         }
                         else {
                             Toast.makeText(Login.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.GONE);
                         }
-
 
                     }
                 });
@@ -80,7 +78,7 @@ public class Login extends AppCompatActivity {
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Register.class));
+                startActivity(new Intent(getApplicationContext(),Register.class));
 
             }
         });
