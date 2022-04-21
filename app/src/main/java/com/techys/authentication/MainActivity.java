@@ -16,6 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 
 import com.google.android.material.navigation.NavigationView;
+import com.techys.R;
 
 public class MainActivity extends AppCompatActivity {
 

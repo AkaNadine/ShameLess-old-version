@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context=".Login">
+    tools:context=".authentication.Login">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -34,7 +34,7 @@
         android:layout_marginTop="4dp"
         android:fontFamily="@font/mada"
         android:text="Password"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/actor"
         android:text="Welcome back!"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,7 +118,7 @@
         android:fontFamily="@font/mada"
         android:padding="10dp"
         android:text="@string/login"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,7 +149,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/mada"
         android:text="New here? Create an account"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +165,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="@font/mada"
         android:text="Email"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/gradient_background"
-    tools:context=".Register">
+    tools:context="com.techys.authentication.Register">
 
     <TextView
         android:id="@+id/title"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/actor"
         android:text="Create an account"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +53,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/mada"
         android:text="Password"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +68,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/mada"
         android:text="Email"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -153,7 +153,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/mada"
         android:text="Already registered? Login here"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -169,7 +169,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="@font/mada"
         android:text="Name"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -186,7 +186,7 @@
         android:fontFamily="@font/mada"
         android:padding="10dp"
         android:text="Let's Get Started!"
-        android:textColor="@color/albastruinchis"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
